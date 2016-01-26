@@ -1,0 +1,33 @@
+{
+  "name": "crip-demo",
+  "description": "AngularJS crip demo application",
+  "main": "index.js",
+  "authors": [
+    "Igors Krasjukovs <tahq69@gmail.com> (https://github.com/tahq69)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "crip"
+  ],
+  "homepage": "https://github.com/crip-angular/demo",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "angular": "~1.4.8",
+    "angular-loading-bar": "~0.8.0",
+    "fieldset-input": "~1.0.7",
+    "angular-resource": "~1.4.8",
+    "crip-core": "~1.0.0",
+    "crip-grid": "1.0.0",
+    "crip-grid-url": "1.0.0",
+    "components-font-awesome": "~4.5.0"
+  }
+}
