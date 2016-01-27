@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>AngularJS script demo application</title>
+    <title>Crip Angular demo application</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -16,21 +17,21 @@
 <body>
 <div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row base">
             <div class="col-md-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="table-responsive crip-grid" ng-controller="SomeGridController">
                             <form>
-                                <div class="input-group">
-                                    <label class="input-group-addon" for="grid-filters-id">Filter by ID</label>
+                                <div class="form-group" crip-input="grid.filters.id">
+                                    <label for="grid-filters-id">Filter by ID</label>
                                     <input type="text" id="grid-filters-id" class="form-control"
                                            ng-model="grid.filters.id">
                                 </div>
                                 <br>
 
-                                <div class="input-group">
-                                    <label class="input-group-addon" for="grid-filters-text">Filter by text</label>
+                                <div class="form-group" crip-input="grid.filters.text">
+                                    <label for="grid-filters-text">Filter by text</label>
                                     <input type="text" id="grid-filters-text" class="form-control"
                                            ng-model="grid.filters.text">
                                 </div>

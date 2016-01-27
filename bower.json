@@ -28,6 +28,7 @@
     "crip-core": "~1.0.0",
     "crip-grid": "1.0.0",
     "crip-grid-url": "1.0.0",
-    "components-font-awesome": "~4.5.0"
+    "components-font-awesome": "~4.5.0",
+    "crip-input": "~1.0.0"
   }
 }

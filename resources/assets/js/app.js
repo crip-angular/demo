@@ -6,6 +6,7 @@
 
         'crip.core',
         'crip.grid',
+        'crip.input',
 
         'app.grid'
     ]);

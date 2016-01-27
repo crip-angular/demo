@@ -1,4 +1,13 @@
+$border-radius-base: 0;
+$font-family-base: Roboto, sans-serif;
+
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../../bower_components/components-font-awesome/scss/font-awesome";
+@import "../../../bower_components/crip-input/src/sass/crip-input";
+
 
 @import "components/grid";
+
+.row.base {
+  padding-top: 20px;
+}

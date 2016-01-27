@@ -25,7 +25,8 @@ crip.scripts(
         '/angular-resource/angular-resource.js',
         '/crip-core/build/crip-core.js',
         '/crip-grid/build/crip-grid.js',
-        '/crip-grid-url/build/crip-grid-url.js'
+        '/crip-grid-url/build/crip-grid-url.js',
+        '/crip-input/build/crip-input.angular.min.js'
     ],
     'vendor',
     'scripts-vendor',
