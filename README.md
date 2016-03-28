@@ -1,5 +1,7 @@
 # Crip Angular demo application
 
+![alt tag](https://avatars1.githubusercontent.com/u/16862447?v=3&s=200)
+
 Here you can find samples how to use "Crip Angular" modules in real [sample application](http://rawgit.com/crip-angular/demo/master/build/index.html).
 
 ## Modules
